@@ -1,0 +1,16 @@
+[ERROR] 2019-04-28 19:37:18.825 [main]  - Catching
+org.postgresql.util.PSQLException: A result was returned when none was expected.
+	at org.postgresql.jdbc.PgStatement.getNoResultUpdateCount(PgStatement.java:254) ~[postgresql-42.2.5.jar:42.2.5]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:122) ~[postgresql-42.2.5.jar:42.2.5]
+	at com.revature.daos.UserDao.saveUser(UserDao.java:25) [classes/:?]
+	at com.revature.services.UserService.createUser(UserService.java:65) [classes/:?]
+	at com.revature.views.CreateUserView.menuCommands(CreateUserView.java:9) [classes/:?]
+	at com.revature.AppLauncher.main(AppLauncher.java:15) [classes/:?]
+[ERROR] 2019-04-28 20:28:54.760 [main]  - Catching
+java.lang.NullPointerException: null
+	at com.revature.views.LoginView.menuCommands(LoginView.java:42) [classes/:?]
+	at com.revature.AppLauncher.main(AppLauncher.java:15) [classes/:?]
+[ERROR] 2019-04-28 20:35:35.705 [main]  - Catching
+java.lang.NullPointerException: null
+	at com.revature.views.LoginView.menuCommands(LoginView.java:43) [classes/:?]
+	at com.revature.AppLauncher.main(AppLauncher.java:15) [classes/:?]
